@@ -1,0 +1,158 @@
+body {
+   
+    text-align: justify;
+    font-family: "Century Gothic", Verdana, sans-serif;
+    font-size:13px;
+    color: #111111;
+    background-color:#ffffff;
+    width: auto; /* added in body width */
+     /* Added in to automatically adjust margins based on the 
+                    resoultion the site is veiwed on */
+    }
+    
+#Banner{
+
+    background-color: #87BDD8;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 130px;
+    width: auto;
+}    
+
+.logo1 {
+    position: relative;
+    float: left;
+}
+
+#date_time{
+    position: absolute;
+    top: 20px;
+    right:2px;
+    width: 50px;
+    height: 20px;
+}
+
+#clock{
+    font-size: 10px;
+}
+
+#h1 {
+        position: relative;
+        text-align: center;
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+ul {
+       list-style-type: none;
+       position: relative;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+        }
+
+
+#show-menu {
+    opacity: 0;
+    
+    /*This hides the checkbox we are using to facilitate the change in menu*/
+}
+
+.display-menu {
+    float: left;
+    width: 100%;
+    color: #fff;
+    background-color: #002158;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+li { 
+    display: inline-block; 
+    /* margin-bottom: 4px; /* This makes a visible gap between the menu items. */ 
+    width: 100%; 
+     
+    
+  } 
+  li a { 
+    display: block; 
+    height: 40px; 
+    line-height: 40px; /*This makes the clickable area of the link the full size of the visible area that surrounds the link */ 
+    width: 100%; 
+    text-align: center; 
+    border: 2px; 
+    white-space: nowrap; /*Don't wrap content that extends outside this element */ 
+    overflow: hidden; /*Hide any content that extends outside this element */ 
+    text-overflow: ellipsis; /*This indicates too much text for the space with ... */ 
+    text-decoration: none;
+  } 
+  
+  li a:hover {
+    background: rgb(194, 194, 192); /*Change colour on hover.*/ 
+    opacity: 1;
+}
+
+#first_menu_item{
+    background-color: #87BDD8;
+}
+
+#second_menu_item{
+    background-color: #002158;
+}
+
+#third_menu_item{
+    background-color: #87BDD8; 
+}
+
+#page_title {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+label{
+    display: block;
+    float: left;
+    clear: left;
+    width: 130px;
+    text-align: left;
+    
+}
+
+
+
+input {
+    display: block;
+}
+
+#form {
+    height: 10em;
+    line-height: 1.25em;
+
+}
+
+.logo2{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    
+}
+
+.walking_image{
+    position: absolute;
+    bottom:50px;
+    right: 10px;
+    
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+}
