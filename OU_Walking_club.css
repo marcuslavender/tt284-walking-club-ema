@@ -1,0 +1,379 @@
+body {
+    text-align: justify;
+    font-family: "Century Gothic", Verdana, sans-serif;
+    font-size:13px;
+    color: #111111;
+    background-color:#ffffff;
+    margin: 0px;
+    width: auto; /* added in body width */
+     /* Added in to automatically adjust margins based on the 
+                    resoultion the site is veiwed on */
+    }
+    
+.banner{
+
+    background-color: #87BDD8;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 130px;
+    width: auto;
+}    
+
+.logo1 {
+    position: relative;
+    float: left;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+#date_time{
+    position: absolute;
+    top: 20px;
+    right:2px;
+    height: 20px;
+    width: 110px;
+    padding-top:30px;
+}
+
+#clock{
+    font-size: 15px;
+    width: 110px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.title {
+        position: relative;
+        text-align: center;
+        margin: auto;
+        padding-top: 20px;
+      
+        
+    }
+
+.menu_list {
+       list-style-type: none;
+       position: relative;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+        }
+
+
+#show-menu {
+    opacity: 0;
+    visibility: hidden;
+    display: none; 
+    /*This hides the checkbox we are using to facilitate the change in menu*/
+}
+
+.display-menu {
+    /*float: left;*/
+    width: 100%;
+    color: #fff;
+    background-color: #002158;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+li { 
+    display: inline-block; 
+    /* margin-bottom: 4px; /* This makes a visible gap between the menu items. */ 
+    width: 100%; 
+     
+    
+  } 
+  li a { 
+    display: block; 
+    height: 40px; 
+    line-height: 40px; /*This makes the clickable area of the link the full size of the visible area that surrounds the link */ 
+    width: 100%; 
+    text-align: center; 
+    border: 2px; 
+    white-space: nowrap; /*Don't wrap content that extends outside this element */ 
+    overflow: hidden; /*Hide any content that extends outside this element */ 
+    text-overflow: ellipsis; /*This indicates too much text for the space with ... */ 
+    text-decoration: none;
+    color: white;
+  } 
+  
+  li a:hover {
+    background: rgb(194, 194, 192); /*Change colour on hover.*/ 
+    opacity: 1;
+    
+}
+
+#first_menu_item{
+    background-color: #87BDD8;
+}
+
+#second_menu_item{
+    background-color: #002158;
+}
+
+#third_menu_item{
+    background-color: #87BDD8; 
+}
+
+#page_title {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+label{
+    display: block;
+    float: left;
+    clear: left;
+    width: 130px;
+    text-align: left;
+    
+}
+
+
+
+input {
+    display: block;
+}
+
+input:required {
+    background:hsl(180, 50%, 90%);
+    border:1px solid #999;
+}
+
+input:optional {
+    background:hsl(300, 50%, 90%);
+    border:1px dotted hsl(180, 50%, 90%);
+}
+
+input:valid,
+input:in-range {
+    background:hsl(120, 50%, 90%);
+    border-color:hsl(120, 50%, 50%);
+}
+
+input:invalid,
+input:out-of-range {
+    border-color:hsl(0, 50%, 50%);
+    background:hsl(0, 50%, 90%);
+}
+
+.form {
+    height: auto;
+    line-height: 1.25em;
+    padding: 20px;
+
+}
+
+.logo2{
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    
+}
+
+.walking_image{
+    position: absolute;
+    bottom:50px;
+    right: 10px;
+    border: 1px solid #87BDD8;
+    
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 401px){
+
+#menu_section{
+    display: block;
+    width: 100%;
+}
+
+.display-menu{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+
+
+.menu_list{
+    display: inline-block;
+    width: 100%;
+    background-color: grey;
+    height: 100%;
+    white-space: nowrap;
+    padding: 0px;
+    margin: 0px;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+li{
+    display: table-cell;
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+    height: 100%
+    
+    
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    
+    
+    
+
+}
+
+#first_menu_item{
+width: 100%;
+}
+
+#second_menu_item{
+width: 100%;
+}
+
+#third_menu_item{
+width: 100%;
+}
+
+.footer{
+    left: 300px;
+}
+
+.input{
+
+width:300px; 
+height: 25px;   
+}
+
+.form{
+    padding-top: 40px;
+    padding-left: 180px;
+    line-height: 1.50em;
+    
+}
+
+.walking_image {
+    position: absolute;
+    padding-bottom: 50px;
+    bottom: 50px;
+    height: 10px;
+}
+
+.logo2 {
+    position: absolute;
+    bottom: 50px;
+    height: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 3200px) and (min-width:769px) {
+
+  
+    
+    .banner{
+        height: 160px;
+    }
+    
+    
+    .menu_list{
+        display: inline-block;
+        width: 100%;
+        background-color: grey;
+        height: 100%;
+        white-space: nowrap;
+        padding: 0px;
+        margin: 0px;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        
+    }
+    
+    
+    li{
+        display: table-cell;
+        display: table-cell;
+        text-align: center;
+        width: 100%;
+        height: 100%
+        
+        
+    
+    }
+    
+    li a {
+        display: inline-block;
+        color: white;
+        line-height: 80px;
+        height: 80px;
+        
+        
+    
+    
+    }
+
+    #page_title{
+        font-size: 15px;
+    }
+    
+    #first_menu_item{
+    width: 100%;
+    }
+    
+    #second_menu_item{
+    width: 100%;
+    }
+    
+    #third_menu_item{
+    width: 100%;
+    }
+    
+    .footer{
+        left: 450px;
+    }
+    
+    .input{
+    
+    width:500px; 
+    height: 40px;
+
+    }
+
+    label {
+        font-size: 15px;
+        padding-right: 15px;
+    }
+    
+    .form{
+        padding-top: 100px;
+        padding-left:300px;
+        padding-right: 0px;
+        line-height: 1.50em;
+        
+    }
+
+    
+
+    
+}
+
