@@ -27,3 +27,20 @@
 	 }
  }
 	 
+
+
+/*
+*
+* Show hide 
+*
+*/
+
+showhide_table() 
+{
+    var x = document.getElementById("results_table");
+    if (x.style.display === "hidden") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
